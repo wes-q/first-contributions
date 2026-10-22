@@ -367,6 +367,11 @@ MigrationBackup/
 FodyWeavers.xsd
 
 # VS Code files for those working on multiple tools
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 *.code-workspace
 
 # Local History for Visual Studio Code
@@ -382,11 +387,8 @@ FodyWeavers.xsd
 # JetBrains Rider
 .idea/
 *.sln.iml
+.vscode/settings.json
 .DS_Store
 
 # Desktop.ini (Google Drive info file)
 desktop.ini
-temp_auto_push.bat
-temp_interactive_push.bat
-.gitignore
-branch_structure.json
