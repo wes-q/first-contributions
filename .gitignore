@@ -192,6 +192,7 @@ publish/
 # checkin your Azure Web App publish settings, but sensitive information contained
 # in these scripts will be unencrypted
 PublishScripts/
+temp_auto_push.bat
 
 # NuGet Packages
 *.nupkg
@@ -386,7 +387,5 @@ FodyWeavers.xsd
 
 # Desktop.ini (Google Drive info file)
 desktop.ini
-temp_auto_push.bat
-temp_interactive_push.bat
 .gitignore
 branch_structure.json
